@@ -24,16 +24,36 @@
   
   .name {
     grid-area: name;
-   background-color: pink}
+   background-color: pink;}
   
   .photo {
     grid-area: photo;
-    background-color: lavender
+    background-color: lavender;
+display: flex;
+align-items: center;
+
   }
+
+.photo > div {
+    margin:auto;
+ width:150px;
+height:150px;
+text-align: center;
+ 
+  /* margin-left: 10%; */
+  /* margin-top: 7%; */
+} 
+
+.photo > div > img {
+    display: block;
+    border: solid black 1px;
+    border-radius: 50%;
+    
+}
   
   .about {
     grid-area: about;
-    background-color: yellow
+    background-color: yellow;
       
   }
   
@@ -44,6 +64,9 @@
   .skills {
     grid-area: skills;
   }
+  img {
+  }
+ 
   
   .education {
     grid-area: education;
